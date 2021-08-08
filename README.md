@@ -1,9 +1,7 @@
----
-title: "Sanger Alignment"
-author: "Shivani Raja"
-date: "07/08/2021"
-output: html_document
----
+# Sanger Alignment
+## Shivani Raja
+### 07/08/2021
+
 ### Introduction 
 
 SangerAlignment allows you to align the sequences of 5 DNA strings, which can be Sanger sequencing files or gRNA text sequences.   
