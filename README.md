@@ -10,7 +10,7 @@ In this example, I have 3 .ab1 (Sanger files) containing information about my CR
  
 *These files are in the github repository (shivani-raja/SangerAlignment) if you would like to practice with them.*  
 
-### Loading the SangerAlignment package
+### Installing and loading the SangerAlignment package
 
 SangerAlignment is currently available on GitHub, so you will first need to install devtools to install the package from GitHub.
 
