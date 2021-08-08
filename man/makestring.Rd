@@ -2,11 +2,10 @@
 % Please edit documentation in R/SangerAlignment.R
 \name{makestring}
 \alias{makestring}
-\title{makestring function}
+\title{required packages}
 \usage{
 makestring(x)
 }
 \description{
-For imported sanger files, makestring extracts the sequence + turns into a string.
-For gRNA sequences imported as vectors, makestring turns the sequence into a gRNA string.
+required packages
 }
