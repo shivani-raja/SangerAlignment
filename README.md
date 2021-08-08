@@ -26,7 +26,7 @@ library(SangerAlignment)
 
 ### Loading the files into R
 
-Make sure to a) save your .ab1 files into the same folder as your R working directory so they can be easily loaded into R, and b) give them easily identifiable file names.
+Make sure to a) save your .ab1 files into the same folder as your R working directory so they can be easily loaded into R and b) give them easily identifiable file names.
 
 ```{r}
 #loading the Sanger files 
