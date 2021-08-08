@@ -54,7 +54,7 @@ KD3 <- makestring(KD3)
 gRNA <- makestring (gRNA)
 ```
 
-Now we have our strings, we can align them using alignsequences(). Note that the function requires 5 sequences to work correctly (3 KD, 1 WT and a gRNA sequence.) You can change the order of the sequences if you wish, but I reccommend putting the wild-type cell line first.
+Now we have our strings, we can align them using alignsequences(). Note that the function requires 5 sequences to work correctly (in this case 3 KD, 1 WT and a gRNA sequence.) You can change the order of the sequences if you wish, but I reccommend putting the wild-type cell line first.
 
 ```{r}
 #align the sequences
