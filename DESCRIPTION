@@ -8,8 +8,8 @@ Description: SangerAlignment is a simple package which allows you to import
     .ab1 sequencing files and convert them into DNA strings. gRNA text
     sequences can also be imported and converted into strings. gRNA strings
     and DNA strings can then be aligned and the output visualised in a 
-    browser. SangerAlignment is useful for identifying the effects of gRNA 
-    incorporation (e.g. via CRISPR) on the wild-type genome. 
+    browser. SangerAlignment is useful for visualising the effects of 
+    CRISPR machinery on the wild-type genome. 
 Encoding: UTF-8
 LazyData: true
 Imports:
