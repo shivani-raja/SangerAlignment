@@ -2,7 +2,6 @@
 
 export(alignsequences)
 export(makestring)
-import("+")
 import("files,")
 import("function")
 import("vectors,")
