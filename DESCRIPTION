@@ -13,7 +13,7 @@ Description: SangerAlignment is a simple package which allows you to import
 Encoding: UTF-8
 LazyData: true
 Imports:
-  BiocManager,
+  BiocInstaller,
   sangerseqR,
   DECIPHER
 RoxygenNote: 7.1.1
