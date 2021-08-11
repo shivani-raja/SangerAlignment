@@ -2,5 +2,7 @@
 
 export(alignsequences)
 export(makestring)
-import(DECIPHER)
-import(sangerseqR)
+importFrom(DECIPHER,AlignProfiles)
+importFrom(DECIPER,BrowseSeqs)
+importFrom(sangerseqR,DNAStringSet)
+importFrom(sangerseqR,primarySeq)
