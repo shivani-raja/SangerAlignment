@@ -12,8 +12,8 @@ Description: SangerAlignment is a simple package which allows you to import
     CRISPR machinery on the wild-type genome. 
 Encoding: UTF-8
 LazyData: true
+biocViews:
 Imports:
-  BiocInstaller,
   sangerseqR,
   DECIPHER
 RoxygenNote: 7.1.1
