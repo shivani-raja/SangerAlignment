@@ -16,6 +16,8 @@ In this example, I have 3 .ab1 (Sanger files) containing information about my CR
 
 SangerAlignment is currently available on GitHub, so you will first need to install remotes to install the package from GitHub.
 
+Note: Make sure you are using the latest version of R. Update any packages if asked to do so when installing.
+
 ```{r}
 #installing SangerAlignment
   if(!"remotes" %in% row.names(installed.packages())){
