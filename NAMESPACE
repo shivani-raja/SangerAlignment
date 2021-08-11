@@ -3,6 +3,6 @@
 export(alignsequences)
 export(makestring)
 importFrom(DECIPHER,AlignProfiles)
-importFrom(DECIPER,BrowseSeqs)
+importFrom(DECIPHER,BrowseSeqs)
 importFrom(sangerseqR,DNAStringSet)
 importFrom(sangerseqR,primarySeq)
