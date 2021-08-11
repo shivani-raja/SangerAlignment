@@ -9,10 +9,10 @@
 #' @export
 makestring <- function(x){
   if(typeof(x) !="character"){
-    xseq <- sangerseqR::primarySeq(x, string = TRUE)
-    xstring = sangerseqR::DNAStringSet(xseq)
+    xseq <- primarySeq(x, string = TRUE)
+    xstring = DNAStringSet(xseq)
   } else {
-    xstring = sangerseqR::DNAStringSet(x)
+    xstring = DNAStringSet(x)
   }}
 
 #'alignsequences function.
@@ -20,9 +20,9 @@ makestring <- function(x){
 #'Aligns 5 sequences and opens the alignment output in a browser.
 #'@export
 alignsequences <- function(a,b,c,d,e){
-  alignment <- DECIPHER::AlignProfiles(a,b)
-  alignment <- DECIPHER::AlignProfiles(alignment,c)
-  alignment <- DECIPHER::AlignProfiles(alignment,d)
-  alignment <- DECIPHER::AlignProfiles(alignment,e)
-  DECIPHER::BrowseSeqs(alignment)
+  alignment <- AlignProfiles(a,b)
+  alignment <- AlignProfiles(alignment,c)
+  alignment <- AlignProfiles(alignment,d)
+  alignment <- AlignProfiles(alignment,e)
+  BrowseSeqs(alignment)
 }
