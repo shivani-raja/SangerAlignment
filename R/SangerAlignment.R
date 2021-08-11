@@ -1,9 +1,4 @@
-#'required packages
-#'@import sangerseqR
-#'@import DECIPHER
-#'@import Biostrings
-
-#'makestring function
+#' makestring function
 #'
 #' For imported sanger files, makestring extracts the sequence + turns into a string.
 #' For gRNA sequences imported as vectors, makestring turns the sequence into a gRNA string.
@@ -16,10 +11,10 @@ makestring <- function(x){
     xstring = Biostrings::DNAStringSet(x)
   }}
 
-#'alignsequences function.
+#' alignsequences function.
 #'
-#'Aligns 5 sequences and opens the alignment output in a browser.
-#'@export
+#' Aligns 5 sequences and opens the alignment output in a browser.
+#' @export
 alignsequences <- function(a,b,c,d,e){
   alignment <- AlignProfiles(a,b)
   alignment <- AlignProfiles(alignment,c)
