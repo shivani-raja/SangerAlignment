@@ -11,9 +11,9 @@
 makestring <- function(x){
   if(typeof(x) !="character"){
     xseq <- primarySeq(x, string = TRUE)
-    xstring = DNAStringSet(xseq)
+    xstring = Biostrings::DNAStringSet(xseq)
   } else {
-    xstring = DNAStringSet(x)
+    xstring = Biostrings::DNAStringSet(x)
   }}
 
 #'alignsequences function.
