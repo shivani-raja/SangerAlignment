@@ -1,7 +1,9 @@
-# Sanger Alignment
-## Shivani Raja
-### 07/08/2021
-
+---
+title: "Sanger Alignment"
+author: "Shivani Raja"
+date: "07/08/2021"
+output: html_document
+---
 ### Introduction 
 
 SangerAlignment allows you to align the sequences of 5 DNA strings, which can be Sanger sequencing files or gRNA text sequences.   
@@ -10,7 +12,7 @@ In this example, I have 3 .ab1 (Sanger files) containing information about my CR
  
 *These files are in the github repository (shivani-raja/SangerAlignment) if you would like to practice with them.*  
 
-### Installing and loading the SangerAlignment package
+### Loading the SangerAlignment package
 
 SangerAlignment is currently available on GitHub, so you will first need to install devtools to install the package from GitHub.
 
@@ -26,7 +28,7 @@ library(SangerAlignment)
 
 ### Loading the files into R
 
-Make sure to a) save your .ab1 files into the same folder as your R working directory so they can be easily loaded into R and b) give them easily identifiable file names.
+Make sure to a) save your .ab1 files into the same folder as your R working directory so they can be easily loaded into R, and b) give them easily identifiable file names. Then we'll load them into R using the 'readsangerseq' function.
 
 ```{r}
 #loading the Sanger files 
@@ -51,10 +53,10 @@ WT <- makestring(WT)
 KD1 <- makestring(KD1)
 KD2 <- makestring(KD2)
 KD3 <- makestring(KD3)
-gRNA <- makestring (gRNA)
+gRNA <- makestring(gRNA)
 ```
 
-Now we have our strings, we can align them using alignsequences(). Note that the function requires 5 sequences to work correctly (in this case 3 KD, 1 WT and a gRNA sequence.) You can change the order of the sequences if you wish, but I reccommend putting the wild-type cell line first.
+Now we have our strings, we can align them using alignsequences(). Note that the function requires 5 sequences to work correctly (3 KD, 1 WT and a gRNA sequence.) You can change the order of the sequences if you wish, but I reccommend putting the wild-type cell line first.
 
 ```{r}
 #align the sequences
