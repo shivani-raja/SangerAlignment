@@ -1,8 +1,8 @@
 ---
-title: "Sanger Alignment"
-author: "Shivani Raja"
-date: "07/08/2021"
-output: html_document
+# Sanger Alignment
+## Shivani Raja 
+### 11/08/2021
+
 ---
 ### Introduction 
 
