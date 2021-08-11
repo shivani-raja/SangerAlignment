@@ -1,6 +1,7 @@
 #'required packages
 #'@import sangerseqR
 #'@import DECIPHER
+#'@import Biostrings
 
 #'makestring function
 #'
