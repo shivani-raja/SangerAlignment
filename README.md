@@ -14,15 +14,15 @@ In this example, I have 3 .ab1 (Sanger files) containing information about my CR
 
 ### Loading the SangerAlignment package
 
-SangerAlignment is currently available on GitHub, so you will first need to install devtools to install the package from GitHub.
+SangerAlignment is currently available on GitHub, so you will first need to install remotes to install the package from GitHub.
 
 ```{r}
 #installing SangerAlignment
-  if(!"devtools" %in% row.names(installed.packages())){
-    install.packages("devtools")
+  if(!"remotes" %in% row.names(installed.packages())){
+    install.packages("remotes")
 }
-library(devtools)
-install_github("shivani-raja/SangerAlignment")
+library(remotes)
+remotes::install_github("shivani-raja/SangerAlignment")
 library(SangerAlignment)
 ```
 
